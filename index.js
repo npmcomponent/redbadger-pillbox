@@ -2,12 +2,12 @@
  * Module dependencies.
  */
 
-var Emitter = require('emitter')
-  , Dropdown = require('dropdown')
-  , keyname = require('keyname')
-  , events = require('events')
-  , each = require('each')
-  , Set = require('set');
+var Emitter = require('component-emitter')
+  , Dropdown = require('redbadger-dropdown')
+  , keyname = require('component-keyname')
+  , events = require('component-events')
+  , each = require('component-each')
+  , Set = require('component-set');
 
 /**
  * Expose `Pillbox`.
